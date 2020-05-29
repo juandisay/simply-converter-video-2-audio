@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import time
 import os
@@ -8,9 +8,6 @@ import urllib.error
 import re
 import sys
 
-# Notes
-# Download ffmpeg
-# Download lame
 
 def video_2_audio(fileName):
 	try:
