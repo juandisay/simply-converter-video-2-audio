@@ -8,6 +8,9 @@ import urllib.error
 import re
 import sys
 
+# Notes
+# Download ffmpeg
+# Download lame
 
 def video_2_audio(fileName):
 	try:
@@ -36,7 +39,7 @@ def run():
 			print(err.reason)
 			exit(1)
 		# convert video to audio
-		video_to_audio(filePath)
+		video_2_audio(filePath)
 		time.sleep(1)
 		
 # install ffmpeg and/or lame if you get an error saying that the program is currently not installed 
