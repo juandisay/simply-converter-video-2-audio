@@ -27,7 +27,7 @@ def video_2_audio(fileName):
 
 def run():
 	if len(sys.argv) <1 or len(sys.argv) > 2:
-		print('command usage: python3 video_to_audio.py FileName')
+		print('command usage: python3 main.py FileName')
 		exit(1)
 	else:
 		filePath = sys.argv[1]
