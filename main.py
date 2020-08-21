@@ -8,7 +8,8 @@ import urllib.error
 import re
 import sys
 
-
+# Dont forget install ffmpeg 
+# Install via https://ffmpeg.org/download.html
 def video_2_audio(fileName):
 	try:
 		file, file_extension = os.path.splitext(fileName)
